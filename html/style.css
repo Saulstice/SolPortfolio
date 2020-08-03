@@ -1,0 +1,170 @@
+body {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+nav, .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.card {
+    margin-bottom: 3vw;
+    border: 3px solid white;
+}
+.card-body {
+    background: black;
+    color: white;
+}
+
+.used {
+    font-family: 'Raleway', sans-serif;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
+.name {
+    font-size: 10vw;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.navbar-brand {
+    padding-left: 10%;
+    font-size: 30px;
+}
+.rotate1 {
+    font-family: 'Raleway', sans-serif;
+    transform: rotate(-90deg);
+    top: 300px;
+}
+
+.rotate2{
+    font-family: 'Raleway', sans-serif;
+    transform: rotate(-90deg);
+    top: 200px;
+}
+   
+
+/* Portfolio & about header */
+#head, #about {
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 35px;
+}
+
+.carousel{
+    position: relative;
+    top:50px;
+    margin-bottom: 30px;
+}
+#hobDiv, #bioDiv {
+    padding-top: 20px;
+    border-top: 1px solid gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#titles {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+.card-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+#quote {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 20;
+}
+
+#me {
+    height: 30vw;
+    width: 30vw;
+    margin-left: 10vw;
+}
+
+#vid {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background: yellow;
+    z-index: -101;
+}
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    min-width: 90%;
+    min-height: 90%;
+    width: 50%;
+    height: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+  }
+
+
+  @media (max-width: 767px) {
+
+    .carousel{
+        position: relative;
+        top:0px;
+        margin-bottom: 30px;
+    }
+    .rotate1{
+        transform: rotate(0);
+        top: 0px;
+    }
+    .rotate2{
+        transform: rotate(0);
+        top: 0px;
+    }
+
+    .name, #head, #about {
+        font-size: 50px;
+        top: 0px;
+    }
+
+    #me {
+        height: 300px;
+        width: 300px;
+    }
+    .nameDiv {
+        width: 100%;
+        text-align: center;
+    }
+    #titles {
+        font-size: 30px;
+    }
+
+    #myVideo {
+        position: fixed;
+    top: 80%;
+    left: 50%;
+    min-width: 90%;
+    min-height: 90%;
+    width: 50%;
+    height: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+    }
+    }
+    
