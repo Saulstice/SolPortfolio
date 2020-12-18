@@ -1,7 +1,7 @@
 // Adding text and image to page
 $(".name").text("Saul Sallah");
 $("#me").attr("src", "./media/saul_.jpg");
-$("#titles").text("Full Stack Web Developer & Information Scientist");
+$("#titles").text("Full Stack Web Developer");
 $("#head").text("Portfolio");
 $("#about").text("About");
 
